@@ -1,0 +1,73 @@
+/* GENERAL STYLING */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f4f4f4;
+}
+
+/* HERO SECTION */
+.hero {
+background: linear-gradient(to right, #007BFF, #00C6FF);
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+/* SECTIONS */
+section {
+padding: 40px 20px;
+text-align: center;
+}
+
+/* SERVICES */
+.service-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card {
+background: white;
+padding: 20px;
+width: 250px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TESTIMONIALS */
+.testimonial {
+background: white;
+margin: 15px auto;
+padding: 20px;
+width: 60%;
+border-left: 5px solid #007BFF;
+}
+
+/* CONTACT */
+.contact form {
+margin-top: 20px;
+}
+
+.contact input,
+.contact textarea {
+width: 80%;
+padding: 10px;
+margin: 10px 0;
+}
+
+button {
+padding: 10px 20px;
+background: #007BFF;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+background: #222;
+color: white;
+padding: 10px;
+}
